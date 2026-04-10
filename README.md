@@ -7,7 +7,7 @@
 - [SloppyAudio tools based on SoX](https://github.com/forcepusher/ComfyUI-SloppyAudio)  
   
 ### Other instruments:  
-- [vibeserver](https://gist.github.com/forcepusher/4c4cf4a8d9e390e4f224f4f31c348672) - single file local/Wi-Fi server for debugging multithreaded mobile Unity WebGL builds and other apps  
+- [SloppyServer](https://gist.github.com/forcepusher/4c4cf4a8d9e390e4f224f4f31c348672) - single file local/Wi-Fi server for debugging multithreaded mobile Unity WebGL builds and other apps  
 
 ### Technical articles:  
 - [How to OOP (Russian)](https://github.com/forcepusher/Obsidian/blob/master/Arch/com.bananaparty.arch.docs.ru.md)  
