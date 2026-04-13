@@ -3,7 +3,7 @@
 - [com.bananaparty.websocketclient](https://github.com/forcepusher/com.bananaparty.websocketclient)  
   
 ### ComfyUI nodes:  
-- [ComfyUI-Enhancement-Utils. PC resource monitor and execution follower](https://github.com/forcepusher/ComfyUI-Enhancement-Utils)  
+- [ComfyUI-Enhancement-Utils](https://github.com/forcepusher/ComfyUI-Enhancement-Utils) (PC resource monitor and execution follower)  
 - [SloppyAudio tools based on SoX](https://github.com/forcepusher/ComfyUI-SloppyAudio)  
   
 ### Other instruments:  
