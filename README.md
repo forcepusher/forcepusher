@@ -1,4 +1,4 @@
-All projects done with the help of AI have "Sloppy" in their name, while others never used it.
+All projects done with the help of AI tools have "Sloppy" in their name, while others never used it.
 
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
