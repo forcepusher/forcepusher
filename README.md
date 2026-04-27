@@ -1,5 +1,5 @@
 Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
-Don't get me wrong, AI is great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
+Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
   
 Oh, BTW. Stop using cloud AI services, build your own local LMStudio/ComfyUI machine. Save monies.  
 3 weeks of pure suffering and you're ready for an AI future, it'll pay for off in less than a year.  
