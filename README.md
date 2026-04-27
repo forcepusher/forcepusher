@@ -1,4 +1,4 @@
-All projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
+Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
 Don't get me wrong, AI is great tool to get stuff done fast, but it's dum as hell.
 
 ### More Unity packages:  
