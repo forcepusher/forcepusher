@@ -1,4 +1,5 @@
 All projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.
+Don't get me wrong, AI is great and fast, but it's dum as shit.
 
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
