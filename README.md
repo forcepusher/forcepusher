@@ -2,7 +2,7 @@ Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in 
 Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
 **> AI is about the volume, not quality. <**  
   
-Oh, BTW. Stop using cloud AI services, build your own local LMStudio/ComfyUI machine. Save monies.  
+Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay for off in less than a year.  
   
 ### More Unity packages:  
