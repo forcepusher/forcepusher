@@ -3,7 +3,7 @@ Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as h
   
 Current Transformers LLM architecture is basically T9 text prediction from old phones, and models are just dictionaries.  
 Repeatedly tap on your phone's text predictions - this is the current state of AI. We need hybrid text diffusion models.  
-But autocomplete was always a good tool anyway. Now that you have proper expectations, you're ready to start building.  
+But autocomplete was always a good tool anyway. Now that you have proper expectations, you're ready to build.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
