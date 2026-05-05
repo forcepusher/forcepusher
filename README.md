@@ -1,8 +1,8 @@
 Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
 Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
   
-Current Transformers LLM arch is essentially T9 autocomplete from an old phone, and models are just dictionaries.  
-Repeatedly tap on your phone's autocomplete - this is the current state of AI. We need hybrid diffusion models.  
+Current Transformers LLM arch is essentially T9 text prediction from an old phone, and models are just dictionaries.  
+Repeatedly tap on your phone's text predictions - this is the current state of AI. We need hybrid diffusion models.  
 Now that you have proper expectations, you're ready to start building.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
