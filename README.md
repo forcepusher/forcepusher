@@ -1,7 +1,7 @@
 Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
 Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
   
-Current Transformers LLM architecture is essentially T9 text prediction from an old phone, and models are just dictionaries.  
+Current Transformers LLM architecture is essentially T9 text prediction from an old phone, and models are dictionaries.  
 Repeatedly tap on your phone's text predictions - this is the current state of AI. We need hybrid text diffusion models.  
 Now that you have proper expectations, you're ready to start building.  
   
