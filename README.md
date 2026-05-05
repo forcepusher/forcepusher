@@ -7,6 +7,7 @@ But autocomplete was always a good tool anyway. Now with proper expectations you
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
+Our videocards can not only run games, but write code. That's pretty cool right?  
   
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
