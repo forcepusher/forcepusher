@@ -1,6 +1,6 @@
 Projects done with the help of AI (Average Intelligence) tools have "Sloppy" in their name, while others never used it.  
 Don't get me wrong, AI is a great tool to get stuff done fast, but it's dum as hell and have to be carefully guided.  
-Current LLM Transformers architecture is essentially T9 autocomplete from an old phone, and models are just dictionaries.  
+Current Transformers LLM architecture is essentially T9 autocomplete from an old phone, and models are just dictionaries.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
