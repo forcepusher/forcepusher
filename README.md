@@ -9,7 +9,7 @@ But autocomplete was always a good tool anyway. Now with proper expectations you
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 You need 16+ GB of VRAM (preferably 24GB), 48+ GB of RAM (pref 64GB), and any somewhat decent modern CPU.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
-Our videocards can not only run games, but write somewhat useful code now. That's pretty cool right?  
+Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
 Think of writing and updating tests. Lovely part of our job, ain't it?  
