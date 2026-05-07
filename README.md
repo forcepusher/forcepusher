@@ -10,6 +10,7 @@ Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyU
 You need 16+ GB VRAM on Nvidia card (preferably 24GB), 48+ GB RAM (pref 64GB), and any half-decent CPU.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
+Useful models I've found so far: gemma-4-31b@q4_k_m, qwen/qwen3.6-27b@q4_k_m, and gemma-4-26b-a4b@q6_k for 16GB GPU (ro run partially on CPU).
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
 Think of writing and updating tests. Lovely part of our job, ain't it?  
