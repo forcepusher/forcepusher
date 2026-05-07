@@ -16,7 +16,7 @@ Think of writing and updating tests. Lovely part of our job, ain't it?
 
 ---
   
-Useful models I've found so far for agentic workloads:  
+Useful models I've found so far that can navigate in the project:  
 qwen/qwen3.6-27b@q4_k_m (for 24GB GPU)  
 gemma-4-31b@q4_k_m (for 24GB GPU)  
 gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, cheapest starter option)  
