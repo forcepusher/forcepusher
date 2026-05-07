@@ -15,9 +15,9 @@ And if part of your job or pipeline can actually be replaced by a parrot - maybe
 Think of writing and updating tests. Lovely part of our job, ain't it?  
   
 Useful models I've found so far:
-- qwen/qwen3.6-27b@q4_k_m (for 24GB GPU)
-- gemma-4-31b@q4_k_m (for 24GB GPU)
-- gemma-4-26b-a4b@q6_k (for 16GB GPU, to run partially on CPU)
+qwen/qwen3.6-27b@q4_k_m (for 24GB GPU)  
+gemma-4-31b@q4_k_m (for 24GB GPU)  
+gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, cheapest option)  
   
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
