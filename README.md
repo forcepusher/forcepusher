@@ -18,7 +18,7 @@ Think of writing and updating tests. Lovely part of our job, ain't it?
   
 Useful models I've found so far that have any idea what they're doing:  
 qwen/qwen3.6-27b@q4_k_m (for 24GB GPU, probably best all-rounder, huge context window)  
-gemma-4-31b@q4_k_m (for 24GB GPU, a bit schizo but very reliable)  
+gemma-4-31b@q4_k_m (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
 gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, cheapest starter option)  
   
 ---
