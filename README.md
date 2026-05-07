@@ -10,6 +10,8 @@ Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyU
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
 Our videocards can not only run games, but write somewhat useful code now. That's pretty cool right?  
   
+And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
+  
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
 - [com.bananaparty.websocketclient](https://github.com/forcepusher/com.bananaparty.websocketclient)  
