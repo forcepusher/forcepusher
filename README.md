@@ -12,6 +12,7 @@ You need 16+ GB of VRAM (preferably 24GB), 48+ GB of RAM (pref 64GB), and any so
 Our videocards can not only run games, but write somewhat useful code now. That's pretty cool right?  
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
+Think of writing and updating tests. Lovely part of our job, ain't it?  
   
 ### More Unity packages:  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
