@@ -22,7 +22,7 @@ gemma-4-31b@q4_k_m (for 24GB GPU, a bit schizo but very reliable, also heavy - n
 gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, cheapest starter option)  
   
 Models less than 26B are completely useless, don't hold your hopes high.  
-Mixture Of Experts (A4B, A3B) are useless too if you're running them partially on CPU while using at least Q6_K.  
+Mixture Of Experts (A4B, A3B) are useless too unless you're running them partially on CPU while using at least Q6_K.  
   
 ---
   
