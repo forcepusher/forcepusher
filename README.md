@@ -20,7 +20,7 @@ Useful models I've found so far that have any idea what they're doing and not dy
 unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
 google/gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, starter option, usable but slow as shit)  
   
-Models less than 24B are completely useless, don't hold your hopes high.  
+Models less than 26B are completely useless, don't hold your hopes high.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
   
 ---
