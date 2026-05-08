@@ -7,7 +7,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of A
 Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-You need 16+ GB VRAM on Nvidia card (preferably 24GB), 48+ GB RAM (pref 64GB), and any half-decent CPU.  
+You need 16+ GB VRAM on Nvidia card (preferably 24GB), 32+ GB RAM (pref 64GB), and any half-decent CPU.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
@@ -17,10 +17,11 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 ---
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
-google/gemma-4-31b-it@q4_k_m (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
-google/gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, starter option, usable but slow as shit)  
+unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
+unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 32GB RAM to run partially on CPU, starter option, barely usable)  
   
 Models less than 26B are completely useless, don't hold your hopes high.  
+
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
   
 ---
