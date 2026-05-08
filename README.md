@@ -12,7 +12,7 @@ You need 16+ GB VRAM on Nvidia card (preferably 24GB), 48+ GB RAM (pref 64GB), a
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
-Think of writing and updating tests. Lovely part of our job, ain't it?  
+Think of writing and updating tests. Lovely flashbacks.  
 
 ---
   
