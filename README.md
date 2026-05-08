@@ -20,8 +20,8 @@ Useful models I've found so far that have any idea what they're doing and not dy
 unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
 unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 32GB RAM, barely usable starter option)  
   
-Models less than 26B are completely useless, don't hold your hopes high.  
-
+Models less than 26B are absolutely useless, don't hold your hopes high.  
+Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
   
 ---
