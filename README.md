@@ -19,7 +19,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
 50k google/gemma-4-31b@q4_k_m (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
 100k unsloth/gemma-4-31b-it@qiq4_nl (for 24GB GPU, same as above, bigger context window, still Q8_0 KV Cache)  
-32k/250k unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 48GB RAM, barely usable starter option, FP16 Cache)  
+250k/32k unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 48GB RAM, barely usable starter option, FP16 Cache)  
   
 Models less than 26B are absolutely useless, don't hold your hopes high.  
 Put `Limit thinking to a coupe of paragraphs` in the rule or system prompt to avoid schizo thinking loops.  
