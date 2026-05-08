@@ -4,7 +4,7 @@ Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc
   
 Current Transformers LLM architecture is basically T9 text prediction from old phones, and models are dictionaries.  
 Repeatedly tap on your phone's text predictions - this is the current state of AI. We need "Conception-Text" models.  
-But autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
+Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 You need 16+ GB VRAM on Nvidia card (preferably 24GB), 48+ GB RAM (pref 64GB), and any half-decent CPU.  
