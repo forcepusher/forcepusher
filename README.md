@@ -21,7 +21,7 @@ unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, a bit schizo but very reliable, als
 unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 48GB RAM, barely usable starter option, stock FP16 KV Cache)  
   
 Models less than 26B are absolutely useless, don't hold your hopes high.  
-Put `Limit thinking to a coupe of paragraphs` in the rule or system prompt to avoid schizo thinking loops.  
+Put `Always think with attention to details, but limit each thinking block to 10 paragraphs` in the rule or system prompt to avoid schizo thinking loops, or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
   
