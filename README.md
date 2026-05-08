@@ -17,7 +17,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 ---
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
-google/gemma-4-31b@q4_k_m (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
+unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, a bit schizo but very reliable, also heavy - needs Q8_0 KV Cache)  
 google/gemma-4-26b-a4b@q6_k (for 16GB GPU to run partially on CPU, cheapest starter option)  
   
 Models less than 24B are completely useless, don't hold your hopes high.  
