@@ -20,14 +20,14 @@ Models less than 26B are absolutely useless, don't hold your hopes high.
 Put `Always think with attention to details, but limit each thinking block to 10 paragraphs` in the rule or system prompt to avoid schizo thinking loops, or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
-Don't use Q8_0 KV Cache, it kills the tool calls and kinda lobotomize the model, it's okay only for Qwen.  
+Never use Q8_0 KV Cache, it kills the tool calls and kinda lobotomize the model, it's sorta-okay only for Qwen.  
 Disable Unified KV Cache and set Max Concurrent Prediction to 1, it saves memory for fat models.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
-unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
-xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
-unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5)  
+Wasserman - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
+Normie - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
+Crackhead - unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5)  
   
 On 16GB VRAM card you will only have 40k context window while computing 4 layers on CPU. This is barely enough to get any meaningful work done, but anyone can test the thing before buying hardware for a fat model.  
   
