@@ -24,6 +24,7 @@ Models less than 26B are absolutely useless, don't hold your hopes high.
 Put `Always think with attention to details, but limit each thinking block to 10 paragraphs` in the rule or system prompt to avoid schizo thinking loops, or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
+Don't use Q8_0 KV Cache quantization, it introduces typos and schizo loops.  
   
 ---
   
