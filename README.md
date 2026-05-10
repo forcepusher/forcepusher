@@ -26,7 +26,7 @@ unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very reliable and heavy, use temper
 xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.8 and Q8_0 KV Cache)  
 unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5, FP16 KV Cache)  
   
-On 16GB VRAM card you will only have 40k context window while offloading 4 layers to CPU. This is barely enough to get any meaningful work done, but anyone can test the thing before buying hardware for a fat model.  
+On 16GB VRAM card you will only have 40k context window while computing 4 layers on CPU. This is barely enough to get any meaningful work done, but anyone can test the thing before buying hardware for a fat model.  
   
 ---
   
