@@ -18,7 +18,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
 unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very reliable)  
-unsloth/gemma-4-31b-it@iq3_xxs (for 16GB GPU + 48GB RAM, barely usable starter option, can use on 24GB VRAM for bigger context window)  
+unsloth/gemma-4-31b-it@iq3_xxs (for 16GB GPU + 48GB RAM, starter option, can use on 24GB VRAM for bigger context window)  
   
 Models less than 26B are absolutely useless, don't hold your hopes high.  
 Put `Always think with attention to details, but limit each thinking block to 10 paragraphs` in the rule or system prompt to avoid schizo thinking loops, or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
