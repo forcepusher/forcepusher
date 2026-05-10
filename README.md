@@ -20,7 +20,7 @@ Models less than 26B are absolutely useless, don't hold your hopes high.
 Put `Always think with attention to details, but limit each thinking block to 10 paragraphs` in the rule or system prompt to avoid schizo thinking loops, or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
-Never use Q8_0 KV Cache, it kills the tool calls and kinda lobotomize the model, it's sorta-okay only for Qwen.  
+Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and kinda lobotomizes the model.  
 Disable Unified KV Cache and set Max Concurrent Prediction to 1, it saves memory for fat models.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
   
