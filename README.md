@@ -23,7 +23,7 @@ Don't use uncensored/abliterated crap, every single bit of KL divergence makes a
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
 unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very reliable and heavy, use temperature 1.0 and Q8_0 KV Cache)  
-xortron.criminalcomputing.2026.27b.next@q5_k_m (for 24GB GPU, custom Qwen 3.5, use temp 0.8 and Q8_0 Cache)  
+xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.8 and Q8_0 KV Cache)  
 unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5, FP16 KV Cache)  
   
 On 16GB VRAM card you will only have 40k context window while offloading 4 layers to CPU. This is barely enough to get any meaningful work done, but anyone can test the thing before buying hardware for a fat model.  
