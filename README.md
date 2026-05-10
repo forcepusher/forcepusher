@@ -23,7 +23,7 @@ Don't use uncensored/abliterated crap, every single bit of KL divergence makes a
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
 unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very reliable and heavy, have to use temp 0.5 and Q8_0 KV Cache)  
-unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, same temp 0.5 and Q8_0 KV Cache)  
+unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, same temp 0.5 and stock FP16 Cache)  
 On 16GB VRAM card you will only have 40k context window while offloading 4 layers to CPU. This is barely enough to get any meaningful work done, but anyone can test the thing before buying hardware.  
   
 ---
