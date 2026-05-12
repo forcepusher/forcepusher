@@ -28,7 +28,7 @@ Useful models I've found so far that have any idea what they're doing and not dy
 Wasserman - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
 Drunk Wasserman - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
 Normie - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
-Crackhead - unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 32GB RAM, starter option, temperature 0.8)  
+Crackhead - google/gemma-4-26b-a4b@q4_k_m (for 16GB GPU + 32GB RAM, starter option, temperature 1.0)  
   
 On 16GB VRAM card you will have 76k context window while computing 4 layers on CPU, but it's still a Crackhead model. It's basically for testing before buying hardware for a fat model.  
   
