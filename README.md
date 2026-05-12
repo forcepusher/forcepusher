@@ -30,7 +30,7 @@ Useful models I've found so far that have any idea what they're doing and not dy
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
 **Crackhead** 232k/48k - google/gemma-4-26b-a4b@q4_k_m (for 16GB GPU + 32GB RAM, starter option, temp 1.0)  
   
-On 16GB VRAM card you will have 48k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for a fat model.  
+On 16GB VRAM card you will have 48k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
 ---
   
