@@ -7,7 +7,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of A
 Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-You need 16+ GB VRAM on Nvidia card (preferably 24GB), 64+ GB RAM (pref 128GB), and any half-decent CPU.  
+You need 16+ GB VRAM on Nvidia card (preferably 24GB), 32+ GB RAM (pref 64-128GB), and any half-decent CPU.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
@@ -28,7 +28,7 @@ Useful models I've found so far that have any idea what they're doing and not dy
 Wasserman - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
 Drunk Wasserman - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
 Normie - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
-Crackhead - unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5)  
+Crackhead - unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 32GB RAM, starter option, temperature 0.8)  
   
 On 16GB VRAM card you will have 86k context window while computing 4 layers on CPU, but it's still a Crackhead model. It's basically for testing before buying hardware for a fat model.  
   
