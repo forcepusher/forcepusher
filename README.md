@@ -17,7 +17,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 ---
   
 Models less than 26B are absolutely useless, don't hold your hopes high.  
-Put `Think with attention to details, stop the thought at 10 paragraphs.` or just use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
+Put `Think with attention to details, stop the thought at 10 paragraphs.` rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
