@@ -21,7 +21,7 @@ Put `Always think with attention to details, but limit each thinking block to 10
 Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
-Disable Unified KV Cache and set Max Concurrent Prediction to 1, it saves some memory for fat models.  
+When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
   
 Useful models I've found so far that have any idea what they're doing and not dying while working:  
