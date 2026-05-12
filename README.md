@@ -7,7 +7,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of A
 Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud AI services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64-128GB), and any half-decent CPU.  
+You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64-128GB), any half-decent CPU.  
 3 weeks of pure suffering and you're ready for a true/actual AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
