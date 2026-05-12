@@ -30,7 +30,7 @@ Drunk Wasserman - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above fo
 Normie - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
 Crackhead - unsloth/gemma-4-26b-a4b-it@iq4_nl (for 16GB GPU + 64GB RAM, starter option, temperature 0.5)  
   
-On 16GB VRAM card you will have 100k context window while computing 4 layers on CPU, but it's still a Crackhead model. It's basically for testing before buying hardware for a fat model.  
+On 16GB VRAM card you will have 86k context window while computing 4 layers on CPU, but it's still a Crackhead model. It's basically for testing before buying hardware for a fat model.  
   
 ---
   
