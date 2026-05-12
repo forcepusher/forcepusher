@@ -24,7 +24,7 @@ Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
   
-#### Cookbook (useful models I've found so far):
+#### Cookbook (very useful models I've found so far):
 **Wasserman** 32k - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
 **Drunk Wasserman** 96k - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
