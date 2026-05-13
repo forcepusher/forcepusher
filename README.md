@@ -31,7 +31,7 @@ Don't use uncensored/abliterated crap, every single bit of KL divergence makes a
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
-[Jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed.  
+[Jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
   
 ---
   
