@@ -16,14 +16,6 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 
 ---
   
-Models less than 26B are absolutely useless, don't hold your hopes high.  
-Put `Think with attention to details, stop the thought at 10 paragraphs.` rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
-Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
-Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
-Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
-When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
-Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
-  
 #### Cookbook (essential models I've found for programming so far):
 **Wasserman** 32k - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
 **Drunk Wasserman** 96k - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
@@ -31,6 +23,14 @@ Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE 
 **Crackhead** 232k/48k - google/gemma-4-26b-a4b@q4_k_m (for 16GB GPU + 32GB RAM, starter option, temp 1.0)  
   
 On 16GB VRAM card you will have 48k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
+  
+Models less than 26B are absolutely useless, don't hold your hopes high.  
+Put `Think with attention to details, stop the thought at 10 paragraphs.` rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
+Quantize your vision .mmproj file to Q8_0 so you don't have to blind the model completely.  
+Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
+Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
+When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
+Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
   
 ---
   
