@@ -25,7 +25,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 On 16GB VRAM card you will have 64k context window while computing 4 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
 Models less than 26B are absolutely useless, don't hold your hopes high.  
-Put `Be short and terse. Subject, next step.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
+Put `Think short and terse, respond short and terse. Subject, next step.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
