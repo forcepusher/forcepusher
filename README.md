@@ -20,13 +20,12 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 **Wasserman** 32k - unsloth/gemma-4-31b-it@iq4_nl (for 24GB GPU, very heavy and reliable, use temperature 1.0)  
 **Drunk Wasserman** 96k - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
-**Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, temperature 0.7)  
-
-Use Top K Sampling 40 for all models to reduce trash and noise.  
+**Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, use temperature 1.0)  
+  
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
-Put `Think short and terse, respond short and terse. Subject, next step.` in a rule or my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
+Put `Think short and terse, respond short and terse.` in a rule or my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
