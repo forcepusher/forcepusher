@@ -26,7 +26,6 @@ Use Top K Sampling 40 for all models to reduce trash and noise.
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
-Models less than 26B are absolutely useless, don't hold your hopes high.  
 Put `Think short and terse, respond short and terse. Subject, next step.` in a rule or my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
