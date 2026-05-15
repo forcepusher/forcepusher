@@ -23,7 +23,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 **Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, temperature 0.7)  
 
 Use Top K Sampling 40 for all models to reduce trash and noise.  
-Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".
+Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
 Put `Think short and terse, respond short and terse. Subject, next step.` in a rule or my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
