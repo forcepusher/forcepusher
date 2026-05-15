@@ -20,7 +20,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 **Wasserman** 32k - unsloth/gemma-4-31b-it@iq4_xs (for 24GB GPU, heavy and reliable, temperature 1.0, top k 64)  
 **Drunk Wasserman** 96k - unsloth/gemma-4-31b-it@q2_k_xl (for 24GB GPU, same as above for bigger context window)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, use temperature 0.6)  
-**Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, temperature 1.0, , top k 64)  
+**Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, temperature 1.0, top k 64)  
   
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
