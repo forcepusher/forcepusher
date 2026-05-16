@@ -4,7 +4,7 @@ Projects in my repos done with the help of "AI" (Average Intelligence) tools hav
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic brain. But it's still just a parrot facerolling on the keyboard.  
   
 LLM is not even a neural network, it's an autocomplete dictionary for T9 text prediction from old Nokia phones.  
-Repeatedly tap on your phone's text predictions - this is the current state of "AI". Transformers architecture is garbage.  
+Repeatedly tap on your phone's text predictions - this is the current state of "AI". That's garbage Transformers architecture.  
 Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
