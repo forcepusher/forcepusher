@@ -17,7 +17,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 ---
   
 ### Cookbook (essential models I've found for programming so far):
-**Wasserman** 64k - unsloth/gemma-4-31b-it@iq4_xs (for 24GB GPU, heavy and reliable, temperature 1.0, top k 64)  
+**Wasserman** 56k - unsloth/gemma-4-31b-it@iq4_xs (for 24GB GPU, heavy and reliable, temperature 1.0, top k 64)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (Qwen3.5 for 24GB GPU, temperature 0.6, top k 40)  
 **Crackhead** 150k/32k - ex0bit/gemma4-26b-a4b-prism-pro-dq (16GB GPU + 32GB RAM, temperature 1.0, top k 64)  
   
