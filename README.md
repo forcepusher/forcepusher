@@ -2,8 +2,9 @@ Projects in my repos done with the help of "AI" (Average Intelligence) tools hav
   
 "AI" is a great to get stuff done fast, but it's dum as hell and have to be extremely carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic brain. But it's still just a parrot facerolling on the keyboard.  
-Current Transformers LLM architecture is basically T9 text prediction from old phones, and models are dictionaries.  
-Repeatedly tap on your phone's text predictions - this is the current state of "AI". LLM is not even a neural network.  
+Current Transformers LLM architecture is basically T9 text prediction from old Nokia phones.  
+Repeatedly tap on your phone's text predictions - this is the current state of "AI".  
+LLM is not even a neural network, it's an autocomplete dictionary.  
 Though autocomplete was always a good tool anyway. Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
