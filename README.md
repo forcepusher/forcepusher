@@ -1,4 +1,4 @@
-Projects done with the help of "AI" (Average Intelligence) tools have "Sloppy" in their name.  
+Projects in my repos done with the help of "AI" (Average Intelligence) tools have "Sloppy" in their name.  
   
 Autocomplete is a great to get stuff done fast, but it's dum as hell and have to be extremely carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic brain. But it's still just a parrot facerolling on the keyboard.  
