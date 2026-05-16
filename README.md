@@ -24,7 +24,7 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
-Put `Thoughts and responses MUST be terse and short.` in a rule or my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
+Put `Thoughts and responses MUST be terse and short.` in a rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every single bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
