@@ -25,12 +25,12 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 **Crackhead** 64k - unsloth/gemma-4-26b-a4b-it@q5_k_s (schizo and fast as hell, temperature 0.3, top k 64)  
   
 16GB GPU + 32GB RAM:  
-**Local Pentester** 32k - xortron.criminalcomputing.2026.27b.next@iq3_m (full GPU compute, temperature 0.3, top k 40)  
+**Local Pentester** 40k - xortron.criminalcomputing.2026.27b.next@iq3_xs (full GPU compute, temperature 0.3, top k 40)  
 **Local Crackhead** 48k - unsloth/gemma-4-26b-a4b-it@iq4_nl (compute 2 layers on CPU, temperature 0.3, top k 64)  
   
   
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
-On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
+If you can get anything done on 16GB GPU models, you should probably invest in RTX 3090 or go straight to RTX 5090.  
   
 I use low temperature to prevent tool use typos/screwups, it's a very common problem.  
 All models should use 8k output token limit, except gemma-4-26b-a4b that actually needs 16k for schizo reasoning.  
