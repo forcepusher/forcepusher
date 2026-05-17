@@ -8,7 +8,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of "
 Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-All you need is 16GB VRAM GPU and 32GB RAM to start, it's really that cheap.  
+All you need is 16GB VRAM GPU and 32GB RAM to start, it's really that cheap. CPU doesn't matter.  
 3 weeks of pure suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
