@@ -35,7 +35,7 @@ To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string,
 I use low temperature of 0.3 to prevent tool use typos/screwups, it's a very common problem.  
 All models should use 8k output token limit, except gemma-4-26b-a4b that actually needs 16k for schizo reasoning.  
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
-Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely. Vision consumes a lot.  
+Vision consumes a lot. Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
