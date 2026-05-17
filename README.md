@@ -37,7 +37,7 @@ All models should use 8k output token limit, except gemma-4-26b-a4b that actuall
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Vision consumes a lot. Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every bit of KL divergence makes a huge difference.  
-Never use Q8_0 KV Cache, it kills the tool calls because it introduces typos and lobotomizes the model.  
+Never use Q8_0 KV Cache. Ut kills the tool calls because it introduces typos, and lobotomizes reasoning of the model.  
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
 Use OpenAI-compatible API to connect to LM Studio. Best open-source agentic IDE atm seems to be https://zed.dev/  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
