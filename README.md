@@ -7,8 +7,8 @@ LLM is not even a neural network, it's an autocomplete dictionary for T9 text pr
 Repeatedly tap on your phone's text predictions - this is the current state of "AI".  
 Now with proper expectations you're ready to start building.  
   
-Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-All you need is 16GB VRAM GPU and 32GB RAM to start, and CPU doesn't matter. it's really that cheap.  
+Oh, BTW. Stop feeding your money to cloud services, start with your own local LMStudio/ComfyUI machine.  
+All you need is 16GB VRAM GPU and 32GB RAM to start, CPU doesn't matter. It's really that cheap.  
 3 weeks of setup suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
