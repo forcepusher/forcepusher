@@ -39,7 +39,7 @@ Vision consumes a lot. Quantize your vision .mmproj files to Q8_0 so you don't h
 Don't use uncensored/abliterated crap, every bit of KL divergence makes a huge difference.  
 Never use Q8_0 KV Cache. Ut kills the tool calls because it introduces typos, and lobotomizes reasoning of the model.  
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
-Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE atm.  
+Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
   
 ---
