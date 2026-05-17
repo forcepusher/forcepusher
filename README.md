@@ -29,7 +29,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 **Local Crackhead** 48k - unsloth/gemma-4-26b-a4b-it@iq4_nl (compute 2 layers on CPU, temperature 0.3, top k 64)  
   
 If you can get anything done on 16GB GPU models, you should probably invest in RTX 3090 or go straight to 5090.  
-The difference between 16GB and 24GB VRAM is astronomic.  
+The difference between 16GB and 24GB VRAM for models is astronomic.  
   
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought" to avoid bugs.  
 I use low temperature to prevent tool use typos/screwups, it's a very common problem.  
