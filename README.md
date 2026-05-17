@@ -14,7 +14,7 @@ Our videocards now can not only run games, but write somewhat useful code. That'
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
 Think of writing and updating tests. If you're blank-staring at the wall right now, you get it.  
-Don't let LLM give you advice or build an architecture for you though - it's all garbage.  
+Don't let LLMs give you advice or build an architecture though - it's all garbage.  
   
 ---
   
