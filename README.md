@@ -25,7 +25,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 **Crackhead** 64k - unsloth/gemma-4-26b-a4b-it@q5_k_s (schizo and fast as hell, temperature 0.3, top k 64)  
   
 16GB GPU + 32GB RAM:  
-**Local Pentester** 32k - xortron.criminalcomputing.2026.27b.next@iq3_m (full GPU, temperature 0.3, top k 64)  
+**Local Pentester** 32k - xortron.criminalcomputing.2026.27b.next@iq3_m (full GPU compute, temperature 0.3, top k 64)  
 **Local Crackhead** 48k - unsloth/gemma-4-26b-a4b-it@iq4_nl (compute 2 layers on CPU, temperature 0.3, top k 64)  
   
   
