@@ -1,6 +1,6 @@
 Projects done with the help of Average Intelligence tools have "Sloppy" in their name. Others never touched.  
   
-"AI" is a great to get stuff done fast, but it's dum as hell and have to be very carefully guided.  
+Of course "AI" is a great to get stuff done fast, but it's dum as hell and have to be very carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic memory facerolling on the keyboard.  
   
 LLM is not even a neural network, it's an autocomplete dictionary for T9 text predictions just like in old phones.  
