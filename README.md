@@ -1,7 +1,7 @@
 Projects in my repos done with the help of "AI" (Average Intelligence) tools have "Sloppy" in their name.  
   
 "AI" is a great to get stuff done fast, but it's dum as hell and have to be very carefully guided.  
-Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic brain facerolling on the keyboard.  
+Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) with a gigantic memory facerolling on the keyboard.  
   
 LLM is not even a neural network, it's an autocomplete dictionary for T9 text predictions just like in old phones.  
 Repeatedly tap on your phone's text predictions - this is the current state of "AI".  
