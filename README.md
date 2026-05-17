@@ -8,7 +8,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of "
 Now with proper expectations you're ready to start building.  
   
 Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
-You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64-128GB), any half-decent CPU.  
+You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64 or 128GB), any half-decent CPU.  
 3 weeks of pure suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
@@ -19,7 +19,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 ---
   
 ### Cookbook (essential models I've found for programming so far):
-24GB GPU + 64-128GB RAM:  
+24GB GPU + 64 or 128GB RAM:  
 **Wasserman** 56k - unsloth/gemma-4-31b-it@iq4_xs (heavy and reliable, temperature 0.3, top k 64)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune, temperature 0.3, top k 40)  
 **Crackhead** 64k - unsloth/gemma-4-26b-a4b-it@q5_k_s (schizo and fast as hell, temperature 0.3, top k 64)  
