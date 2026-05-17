@@ -32,6 +32,7 @@ Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>though
 On 16GB VRAM card you will have 32k context window while computing 8 layers on CPU, and it's still a Crackhead model. It's basically for testing before buying hardware for fat models.  
   
 I use low temperature to prevent tool use typos/screwups, it's a very common problem.  
+All models should use 8k output token limit, except schizo gemma-4-26b-a4b that actually needs 16k for reasoning.  
 Put `Responses MUST be terse and short.` in a rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Quantize your vision .mmproj files to Q8_0 so you don't have to blind the model completely.  
 Don't use uncensored/abliterated crap, every bit of KL divergence makes a huge difference.  
