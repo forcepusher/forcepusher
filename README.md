@@ -21,10 +21,10 @@ Think of writing and updating tests. If you're blank-staring at the wall right n
 24GB GPU + 64-128GB RAM:  
 **Wasserman** 56k - unsloth/gemma-4-31b-it@iq4_xs (heavy and reliable, temperature 0.3, top k 64)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune, temperature 0.3, top k 40)  
-**Crackhead** 64k - unsloth/gemma-4-26b-a4b-it@q5_k_s (temperature 0.3, top k 64)  
+**Crackhead** 64k - unsloth/gemma-4-26b-a4b-it@q5_k_s (fast as hell, temperature 0.3, top k 64)  
   
 16GB GPU + 32GB RAM:  
-**Local Crackhead** 42k - gemma-4-26b-a4b-it@iq4_nl (a bit nerfed, temperature 0.3, top k 64)  
+**Local Crackhead** 42k - gemma-4-26b-a4b-it@iq4_nl (nerfed local version, temperature 0.3, top k 64)  
 **Local Pentester** 56k - xortron.criminalcomputing.2026.27b.next@iq3_xs (total lobo, temperature 0.3, top k 64)  
   
 Use "<|channel>" as your thought start string for Gemma 4, not "<|channel>thought".  
