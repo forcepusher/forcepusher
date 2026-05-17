@@ -31,7 +31,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 If you can get anything done on 16GB GPU models, you should probably invest in RTX 3090 or go straight to 5090.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
   
-To avoid Gemma 4 thinking bugs, use "<|channel>" as your thought start string, not "<|channel>thought".  
+To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 I use low temperature to prevent tool use typos/screwups, it's a very common problem.  
 All models should use 8k output token limit, except gemma-4-26b-a4b that actually needs 16k for schizo reasoning.  
 Put `Responses MUST be terse and short.` in a rule or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
