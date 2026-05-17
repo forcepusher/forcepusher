@@ -12,7 +12,7 @@ You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64-12
 3 weeks of pure suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
-And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
+And if part of your job or pipeline can actually be replaced by a parrot, maybe it should be replaced.  
 Think of writing and updating tests. If you're blank-staring at the wall right now, you get it.  
 Don't let LLMs think for you or build an architecture - it's all harmful random garbage.  
   
