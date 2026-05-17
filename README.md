@@ -9,7 +9,7 @@ Now with proper expectations you're ready to start building.
   
 Oh, BTW. Stop using cloud services, start with your own local LMStudio/ComfyUI machine. Save monies.  
 You need 16+ GB VRAM on Nvidia card (preferably 24-32GB), 32+ GB RAM (pref 64-128GB), any half-decent CPU.  
-3 weeks of pure suffering and you're ready for a true AI future (without quotemarks), it'll pay off in less than a year.  
+3 weeks of pure suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
 And if part of your job or pipeline can actually be replaced by a parrot - maybe it should be replaced.  
