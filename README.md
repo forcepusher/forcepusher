@@ -31,7 +31,7 @@ If you can get things done on 16GB GPU VRAM model, you should probably invest in
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
   
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
-I use low temperature of 0.3 to prevent tool use typos/screwups, it's a very common problem.  
+I use low temperature of 0.3 to prevent tool use typos/screwups, but top k 40 to mitigate reasoning quality hit.  
 All models should use 8k output token limit to prevent occasional very long useless loops when it fails a tool call.  
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Vision consumes a lot. Use Q8_0 or at least BF16 .mmproj files so you don't have to blind the model completely.  
