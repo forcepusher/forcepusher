@@ -34,7 +34,7 @@ I use low temperature of 0.3 to prevent tool use typos/screwups, but top k 40 to
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 All models should use 8k output token limit to prevent occasional very long useless loops when it fails a tool call.  
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
-Vision consumes a lot. Use Q8_0 or at least BF16 .mmproj files so you don't have to blind the model completely.  
+Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
 Never use Q8_0 KV Cache. Ut kills the tool calls because it introduces typos, and lobotomizes reasoning of the model.  
 When short on memory, always disable Unified KV Cache and set Max Concurrent Prediction to 1.  
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
