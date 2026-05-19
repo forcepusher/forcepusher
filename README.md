@@ -22,7 +22,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 24GB GPU VRAM + 64 or 128GB RAM:  
 [**Wasserman**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 56k - unsloth/gemma-4-31b-it@iq4_xs (wise, heavy and reliable - temperature 0.3, top k 64)  
 [**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune - temperature 0.3, top k 40)  
-[**NPC** 80k](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) (3x parallel) - unsloth/qwen3.6-27b@q4_k_xl (just does the job while barely thinking - temp 0.3, top k 40)  
+[**NPC** 80k](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) (4x parallel) - unsloth/qwen3.6-27b@q4_k_xl (fast, does the job, barely thinking - temp 0.3, top k 40)  
   
 16GB GPU VRAM + 32GB RAM:  
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU temp 0.3, top k 40)  
