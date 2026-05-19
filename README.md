@@ -27,7 +27,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 16GB VRAM GPU + 32GB RAM:  
 **Local Pentester** 40k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.3, top k 40)  
   
-If you can get anything done on 16GB GPU VRAM models, you should probably invest in RTX 3090 or go straight to 5090.  
+If you can get anything done on 16GB GPU VRAM model, you should probably invest in RTX 3090 or go straight to 5090.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
   
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
