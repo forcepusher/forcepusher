@@ -25,7 +25,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune - temperature 0.3, top k 40)  
   
 16GB GPU VRAM + 32GB RAM:  
-[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU temp 0.3, top k 40)  
+[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.3, top k 40)  
   
 If you can get things done on 16GB GPU VRAM model, you should probably invest in RTX 3090 or go straight to 5090.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
