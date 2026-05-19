@@ -20,7 +20,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ### Cookbook (essential models I've found for programming so far):
 24GB GPU VRAM + 64 or 128GB RAM:  
-**Wasserman** 56k - unsloth/gemma-4-31b-it@iq4_xs (heavy and reliable, temperature 0.3, top k 64)  
+**Wasserman** 56k - unsloth/gemma-4-31b-it@iq4_xs (wise, heavy and reliable, temperature 0.3, top k 64)  
 **Pentester** 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune, temperature 0.3, top k 40)  
 **NPC** 80k (3x parallel) - unsloth/qwen3.6-27b@q4_k_xl (just does the job while barely thinking, temp 0.3, top k 40)  
   
