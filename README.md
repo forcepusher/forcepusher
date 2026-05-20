@@ -28,7 +28,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 32k - unsloth/qwen3.6-27b@q3_k_xl (compute 12 layers on CPU, temperature 0.3 top k 40)  
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.3, top k 40)  
   
-If you get anything done on 16GB GPU VRAM models, you should probably invest in RTX 3090 or go HAM with 5090.  
+If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or go HAM with 5090.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
