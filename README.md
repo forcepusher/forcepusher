@@ -20,13 +20,13 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ### Cookbook (essential models I've found for programming so far):
 24GB GPU VRAM + 64GB RAM:  
-[**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 80k (3x parallel) - unsloth/qwen3.6-27b@q4_k_xl (fast, does the job while barely thinking - temp 0.3, top k 40)  
+[**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 80k (3x parallel) - unsloth/qwen3.6-27b@q4_k_xl (fast, does the job while barely thinking - temp 0.6, top k 40)  
 [**Wasserman**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 56k - unsloth/gemma-4-31b-it@iq4_xs (universal, wise, heavy, reliable - temperature 0.3, top k 64)  
-[**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune - temperature 0.3, top k 40)  
+[**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (qwen3.5 finetune - temperature 0.6, top k 40)  
   
 16GB GPU VRAM + 32GB RAM:  
 [**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 32k - unsloth/qwen3.6-27b@q3_k_xl (use Q8_0 KV Cache, compute 8 layers on CPU, temp 0.6, top k 40)  
-[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.3, top k 40)  
+[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.6, top k 40)  
   
 Global settings: Repetition Penalty disabled, Min P Sampling 0.05, Top P Sampling 0.95.  
   
