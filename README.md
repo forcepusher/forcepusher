@@ -30,7 +30,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 Global settings: Repetition Penalty disabled, Min P Sampling 0.05, Top P Sampling 0.95.  
   
-If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or go HAM with 5090.  
+If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or multi-GPU setup.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
