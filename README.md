@@ -28,7 +28,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 32k - unsloth/qwen3.6-27b@q3_k_xl (use Q8_0 KV Cache, compute 8 layers on CPU, temp 0.6, top k 40)  
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (compute 1 layer on CPU, temp 0.6, top k 40)  
   
-Global settings: Repetition Penalty disabled (or at 1.0 same as disabled), Min P Sampling 0.05, Top P Sampling 0.95.  
+Global settings: Repetition Penalty disabled, Min P Sampling 0.05, Top P Sampling 0.95.  
   
 If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or go HAM with 5090.  
 The difference between 16GB and 24GB VRAM is astronomic for LLMs.  
