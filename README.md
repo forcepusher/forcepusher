@@ -18,7 +18,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ---
   
-### Cookbook (essential models I've found for programming so far):
+### Cookbook (reliable models I've found for programming so far):
 24GB GPU VRAM + 64GB RAM:  
 [**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 80k (3x parallel) - unsloth/qwen3.6-27b@q4_k_xl (fast, does the job while barely thinking - temp 0.3, top k 40)  
 [**Wasserman**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 56k - unsloth/gemma-4-31b-it@iq4_xs (universal, wise, heavy, reliable - temperature 0.3, top k 64)  
