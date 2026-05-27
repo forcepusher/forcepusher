@@ -28,7 +28,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 40k - unsloth/qwen3.6-27b@q5_k_xl (Q8_0 KV Cache, temperature 0.6, top k 20, min p 0)  
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.6, top k 20, min p 0)  
   
-12GB GPU VRAM + 24GB RAM (desperate):  
+12GB GPU VRAM + 24GB RAM (for the desperate, it's a toy - not a work tool):  
 [**FacerollGPT**](https://huggingface.co/unsloth/Qwen3.5-9B-GGUF/tree/main) 64k - unsloth/qwen3.5-9b@q6_k_xl (1 layer on CPU, Q8_0 KV Cache, temperature 0.1, top k 40, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
