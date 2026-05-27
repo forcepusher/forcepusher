@@ -29,7 +29,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.6, top k 20, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
-This is [how the settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (of course it's an Indian guy explaining, who would have thought).
+This is [how the settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah, don't say that out loud).  
   
 If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or a multi-GPU setup.  
 Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
