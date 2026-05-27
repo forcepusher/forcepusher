@@ -34,7 +34,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
   
 If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or a multi-GPU setup.  
-Every 4 GB extra VRAM is an astronomic leap in quality and context size.  
+Every 4GB extra VRAM is an astronomic leap in quality and context size.  
 12GB is not even close to 16GB models, just like 16GB is not even close to 24GB models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
