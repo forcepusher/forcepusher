@@ -30,7 +30,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.6, top k 20, min p 0)  
   
 12GB GPU VRAM + 32GB RAM (for the desperate):  
-[**Local Blind Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 24k - unsloth/qwen3.6-27b@q2_k_xl (Q4_0 KV Cache, temperature 0.6, top k 20, min p 0)  
+[**Local Blind Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 24k - unsloth/qwen3.6-27b@q2_k_xl (12 layers on CPU, Q4_0 KV Cache, temp 0.6, top k 20, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
   
