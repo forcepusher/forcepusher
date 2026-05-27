@@ -20,13 +20,13 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ### Cookbook (reliable agentic models I've found for programming so far):
 24GB GPU VRAM + 64GB RAM (comfortable):  
-[**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 80k (x4 parallel) - unsloth/qwen3.6-27b@q5_k_xl (Q8_0 KV Cache, temp 0.6, top k 20, min p 0)  
+[**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 80k (x4 parallel) - unsloth/qwen3.6-27b@q5_k_xl (Q8_0 KV Cache, temp 0.3, top k 20, min p 0)  
 [**Wasserman**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 48k (x2 parallel) - unsloth/gemma-4-31b-it@iq4_xs (temperature 0.3, top k 64, min p 0.05)  
-[**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k (x2 parallel) - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.6, top k 20, min p 0)  
+[**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k (x2 parallel) - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 20, min p 0)  
   
 16GB GPU VRAM + 32GB RAM (starter):  
-[**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 40k - unsloth/qwen3.6-27b@q5_k_xl (Q8_0 KV Cache, temperature 0.6, top k 20, min p 0)  
-[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.6, top k 20, min p 0)  
+[**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 40k - unsloth/qwen3.6-27b@q5_k_xl (Q8_0 KV Cache, temperature 0.3, top k 20, min p 0)  
+[**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.3, top k 20, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
