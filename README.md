@@ -21,17 +21,15 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 ### Cookbook (reliable agentic models I've found for programming so far):
 24GB GPU VRAM + 64GB RAM (comfortable):  
 [**Wasserman**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 56k - unsloth/gemma-4-31b-it@iq4_xs (temp 0.6, top k 64, min p 0.05)  
-[**Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 48k - unsloth/qwen3.6-27b@q5_k_xl (temp 0.3, top k 20, min p 0)  
 [**Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 20, min p 0)  
   
 16GB GPU VRAM + 32GB RAM (starter):  
-[**Local Robot**](https://huggingface.co/unsloth/Qwen3.6-27B-GGUF/tree/main) 32k - unsloth/qwen3.6-27b@iq3_xxs (temperature 0.3, top k 20, min p 0)  
 [**Local Pentester**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.3, top k 20, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
-If you can get anything done on 16GB GPU VRAM models, you should invest in RTX 3090 or a multi-GPU setup.  
+If you can get anything done on 16GB GPU VRAM model, you should invest in RTX 3090 or a multi-GPU setup.  
 Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
