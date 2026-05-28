@@ -24,7 +24,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Pentest Qwen 3.5**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 20, min p 0)  
   
 16GB GPU VRAM + 32GB RAM (starter):  
-[**Local Pentest Qwen 3.5**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.3, top k 20, min p 0)  
+[**Local Qwen 3.5**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, temp 0.3, top k 20, min p 0)  
   
 Global settings: Repetition Penalty disabled, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
