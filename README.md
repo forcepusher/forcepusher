@@ -20,11 +20,11 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ### Cookbook (reliable agentic models I've found for programming so far):
 24GB GPU VRAM + 64GB RAM (comfortable):  
-[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 56k - unsloth/gemma-4-31b-it@iq4_xs (temp 0.3, top k 64)  
-[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 64k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
+[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) 48k - unsloth/gemma-4-31b-it@iq4_xs (temp 0.3, top k 64)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 56k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
   
 16GB GPU VRAM + 32GB RAM (starter):  
-[**Local Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (1 layer on CPU, Q8_0 KV Cache, temp 0.3, top k 20)  
+[**Local Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (2 layers on CPU, Q8_0 KV Cache, temp 0.3, top k 20)  
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
