@@ -24,12 +24,12 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 56k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
   
 16GB GPU VRAM + 32GB RAM (starter):  
-[**Local Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (2 layers on CPU, Q8_0 KV Cache, temp 0.3, top k 20)  
+[**Local Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (2 layers on CPU, Q8 KVCache, temp 0.3, top k 20)  
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
-If you can get anything done on 16GB GPU VRAM model, you should buy RTX 3090 or a multi-GPU setup for 32GB+ VRAM.  
+If you can get anything done on 16GB GPU VRAM model, buy RTX 3090 or a multi-GPU setup for 32GB+ VRAM.  
 Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
