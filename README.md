@@ -8,7 +8,7 @@ Repeatedly tap on your phone's text predictions - this is the current state of "
 Now with proper expectations you're ready to start building.  
   
 Oh, BTW. If you don't want to feed money to cloud services - start with your own local LMStudio/ComfyUI machine.  
-All you need is 32GB RAM to start, CPU and GPU doesn't matter. It's really that cheap.  
+All you need is 12GB GPU and 32GB RAM to start, CPU doesn't matter. It's really that cheap.  
 Setup takes 3 weeks of pure suffering and you're ready for a true AI future, it'll pay off in less than a year.  
 Our videocards now can not only run games, but write somewhat useful code. That's pretty cool right?  
   
@@ -25,9 +25,9 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 16GB GPU VRAM + 32GB RAM (starter):  
 [**Local Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (2 layers CPU, Q8 KVCache, temp 0.1, top k 20)  
-
-Any GPU + 32GB RAM (no investment):  
-[**Gemma 4 12B QAT**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)
+  
+12GB GPU + 32GB RAM (no investment starter):  
+[**Gemma 4 12B QAT**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)  
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
