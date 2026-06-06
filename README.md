@@ -37,8 +37,8 @@ Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstud
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [portable caveman](https://github.com/forcepusher/smol-caveman) prompt.  
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
   
-I use very low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
-Try not to use Q8_0 KV Cache, no matter how tempting or what the benchmarks say - it wrecks reasoning and tool calls.  
+I use low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
+Try not to use Q8_0 KV Cache, no matter how tempting - it wrecks reasoning and tool calls.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 All models should use 8k output token limit to prevent occasional very long useless loops when it fails a tool call.  
 Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless model is intended to work in parallel.  
