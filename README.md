@@ -24,7 +24,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 56k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
   
 12GB GPU + 32GB RAM (starter):  
-[**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (it's pretty damn stupud, temp 0.1, top k 40)  
+[**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (it's pretty damn stupid, temp 0.1, top k 40)  
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
