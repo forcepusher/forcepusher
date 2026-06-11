@@ -20,15 +20,15 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ### Cookbook (reliable agentic models I've found for programming so far):
   
-32-40GB GPU VRAM + 64GB RAM (sweet spot):  
+Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
 [**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) up to ~100k - unsloth/gemma-4-31b-it-qat@q5_k_xl (temp 0.3, top k 40)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.1, top k 20)  
   
-24GB GPU VRAM + 64GB RAM (somewhat comfortable):  
+Somewhat comfortable: 24GB GPU VRAM + 64GB RAM  
 [**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 40k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 56k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
   
-12GB GPU + 32GB RAM (starter option, this model is pretty damn stupid):  
+Starter option, pretty stupid models: 12GB GPU + 32GB RAM  
 [**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)  
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
