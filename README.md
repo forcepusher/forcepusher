@@ -30,6 +30,8 @@ Somewhat comfortable: 24GB GPU VRAM + 64GB RAM
   
 Starter option, pretty stupid models: 12GB GPU + 32GB RAM  
 [**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)  
+
+--
   
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
