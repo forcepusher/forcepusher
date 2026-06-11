@@ -36,7 +36,7 @@ Starter option, pretty stupid models: 12GB GPU + 32GB RAM
 Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
-If you can get anything done on small model, buy RTX 3090 or a multi-GPU RTX 4000 Ada setup for 32GB+ VRAM.  
+If you can get anything done on small model, buy RTX 3090 or a multi-GPU RTX 4000 Ada setup for 40GB VRAM.  
 Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
