@@ -53,17 +53,18 @@ Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless m
 ---
   
 ### More Unity packages:  
+- [com.bananaparty.unislop](https://github.com/forcepusher/com.bananaparty.unislop) - Minimalistic portable Unity MCP server designed for coding.  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput)  
 - [com.bananaparty.websocketclient](https://github.com/forcepusher/com.bananaparty.websocketclient)  
   
 ### ComfyUI nodes:  
-- [ComfyUI-Enhancement-Utils](https://github.com/forcepusher/ComfyUI-Enhancement-Utils) - PC resource monitor and execution follower  
-- [ComfyUI-SloppyAudio](https://github.com/forcepusher/ComfyUI-SloppyAudio) - Audio editing tools based on SoX and BS-RoFormer  
+- [ComfyUI-Enhancement-Utils](https://github.com/forcepusher/ComfyUI-Enhancement-Utils) - PC resource monitor and execution follower.  
+- [ComfyUI-SloppyAudio](https://github.com/forcepusher/ComfyUI-SloppyAudio) - Audio editing tools based on SoX and BS-RoFormer.  
   
 ### Other instruments:  
 - [smol-caveman](https://github.com/forcepusher/smol-caveman) - Portable Caveman prompt designed for local LLMs. Read less slop and get much better results. 
 - [ComfyUI-SloppyInstall.bat](https://gist.github.com/forcepusher/4bc79cce87f3cbda21872ea6ee1936cf) - Simplified pip install -r "requirements.txt" for custom nodes in portable ComfyUI.  
-- [SloppyServer.bat](https://gist.github.com/forcepusher/4c4cf4a8d9e390e4f224f4f31c348672) - Single file local/Wi-Fi server for debugging multithreaded mobile Unity WebGL builds and other apps  
+- [SloppyServer.bat](https://gist.github.com/forcepusher/4c4cf4a8d9e390e4f224f4f31c348672) - Single file local/Wi-Fi server for debugging multithreaded mobile Unity WebGL builds and other apps.  
 
 ### Technical articles (No AI tool ever touched this holy grail):  
 - [How to OOP (Russian)](https://github.com/forcepusher/Obsidian/blob/master/Arch/com.bananaparty.arch.docs.ru.md)  
