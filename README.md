@@ -25,8 +25,8 @@ Sweet spot: 32-40GB GPU VRAM + 64GB RAM
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.1, top k 20)  
   
 Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM  
-[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 40k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40)  
-[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 56k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
+[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 32k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 48k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.1, top k 20)  
   
 Starter option, pretty useless dumb models: 12GB GPU VRAM + 32GB RAM  
 [**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)  
