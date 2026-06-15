@@ -1,4 +1,4 @@
-Projects done with the help of Average Intelligence tools have "Slop" in their name. Others untouched.  
+Projects done with substantial help of Average Intelligence tools have "Slop" in their name. Others untouched.  
   
 Of course "AI" is a great to get stuff done fast, but it's quite dumb and have to be very carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) facerolling on the keyboard.  
