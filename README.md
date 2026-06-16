@@ -41,7 +41,7 @@ Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even 
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
-Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [local agent rulesets](https://github.com/forcepusher/LocalAgentRulesets) prompt.  
+Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [local agent rulesets](https://github.com/forcepusher/LocalAgentRulesets).  
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
   
 I use low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
