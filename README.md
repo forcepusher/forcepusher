@@ -21,7 +21,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 ### Cookbook (reliable agentic models I've found for programming so far):
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
-[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) up to ~100k - unsloth/gemma-4-31b-it-qat@q5_k_xl (temp 0.3, top k 40)  
+[**Gemma 4**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) up to ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40)  
   
 Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM  
