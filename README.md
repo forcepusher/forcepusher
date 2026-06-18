@@ -29,7 +29,7 @@ Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 48k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40)  
   
 A bit more advanced that starter: 16GB GPU VRAM + 32GB RAM  
-[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (temp 0.3, top k 40)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (temp 0.3, top k 40)  
   
 Starter option, pretty useless dumb models: 12GB GPU VRAM + 32GB RAM  
 [**Gemma 4 12B**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40)  
