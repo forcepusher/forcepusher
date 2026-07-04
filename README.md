@@ -21,12 +21,12 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 ### Cookbook (reliable agentic models for programming, most useful first):
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
-[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) up to ~100k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.6, top k 20, disable repetition penalty)  
+[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) up to ~150k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.6, top k 20, no rep penalty, Q8 KV Cache)  
 [**Gemma 4 31B**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) up to ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40, repetition penalty 1.1)  
-[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, repetition penalty 1.1)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
 Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM  
-[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) 40k - unsloth/qwen3.6-27b-mtp@q4_k_xl (temp 0.6, top k 20, disable repetition penalty)  
+[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) 80k - unsloth/qwen3.6-27b-mtp@q4_k_xl (temp 0.6, top k 20, no rep penalty, Q8 KV Cache)  
 [**Gemma 4 31B QAT**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 32k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40, repetition penalty 1.1)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40, repetition penalty 1.1)  
   
@@ -50,7 +50,6 @@ Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
   
 I use low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
-Try not to use Q8_0 KV Cache, no matter how tempting - it wrecks reasoning and tool calls.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 All models should use 8k output token limit to prevent occasional very long useless loops when it fails a tool call.  
 Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless model is intended to work in parallel.  
