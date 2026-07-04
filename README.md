@@ -38,7 +38,7 @@ Starter option, pretty useless dumb models: 12GB GPU VRAM + 32GB RAM
 
 --
   
-Global settings: Repetition Penalty 1.1, Min P Sampling 0.05, Top P Sampling 0.95.  
+Global settings: Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
 If you can get anything done on a small model, buy RTX 3090 or a multi-GPU RTX 4000 Ada setup for 40GB VRAM.  
