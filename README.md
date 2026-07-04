@@ -18,7 +18,7 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
   
 ---
   
-### Cookbook (reliable agentic models I've found for programming so far):
+### Cookbook (reliable agentic models for programming, most useful first):
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) up to ~100k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.6, top k 20, disable repetition penalty)  
