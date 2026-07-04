@@ -51,7 +51,7 @@ Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind
   
 I use low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
-All models should use 8k output token limit to prevent occasional very long useless loops when it fails a tool call.  
+All models should use 8k output token limit except Qwen 3.6 that needs 32k.  
 Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless model is intended to work in parallel.  
   
 ---
