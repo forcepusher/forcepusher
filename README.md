@@ -21,9 +21,9 @@ Don't let LLMs think for you or build an architecture - it's all harmful random 
 ### Cookbook (reliable agentic models for programming, most useful first):
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
-[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) up to ~150k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.6, top k 20, no rep penalty, Q8 KVCache)  
-[**Gemma 4 31B**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) up to ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40, repetition penalty 1.1)  
-[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) up to ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
+[**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) ~150k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.6, top k 20, no rep penalty, Q8 KVCache)  
+[**Gemma 4 31B**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40, repetition penalty 1.1)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
 Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM  
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) 80k - unsloth/qwen3.6-27b-mtp@q4_k_xl (temp 0.6, top k 20, no rep penalty, Q8 KVCache)  
