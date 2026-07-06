@@ -25,7 +25,7 @@ Sweet spot: 32-40GB GPU VRAM + 64GB RAM
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) ~150k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.3, top k 20, no rep penalty, Q8 KVCache)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
-Somewhat comfortable, but low context window: 24GB GPU VRAM + 64GB RAM  
+Usable, but low context window: 24GB GPU VRAM + 64GB RAM  
 [**Gemma 4 31B QAT**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 32k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40, rep penalty 1.1)  
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) 80k - unsloth/qwen3.6-27b-mtp@q4_k_xl (temp 0.3, top k 20, no rep penalty, Q8 KVCache)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40, rep penalty 1.1)  
