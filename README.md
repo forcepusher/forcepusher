@@ -25,7 +25,7 @@ Sweet spot: 32-40GB GPU VRAM + 64GB RAM
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) ~150k - unsloth/qwen3.6-27b-mtp@q6_k_xl (temp 0.3, top k 20, no rep penalty, Q8 KVCache)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
-Usable, but low context window: 24GB GPU VRAM + 64GB RAM  
+Usable, but very low context window: 24GB GPU VRAM + 64GB RAM  
 [**Gemma 4 31B QAT**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 32k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40, rep penalty 1.1)  
 [**Qwen 3.6 27B MTP**](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF/tree/main) 80k - unsloth/qwen3.6-27b-mtp@q4_k_xl (temp 0.3, top k 20, no rep penalty, Q8 KVCache)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40, rep penalty 1.1)  
@@ -41,7 +41,7 @@ Starter option, pretty useless dumb models: 12GB GPU VRAM + 32GB RAM
 Global settings: Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
-If you can get anything done on a small model, invest in a dual-GPU setup. I use dual RTX 4000 Ada for 40GB VRAM.  
+If you can get anything done on a small model, invest in a dual-16GB-GPU setup. I use dual RTX 4000 Ada for 40GB VRAM.  
 Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
