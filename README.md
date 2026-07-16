@@ -59,7 +59,7 @@ Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless m
 ### More Unity packages:  
 - [com.bananaparty.unislop](https://github.com/forcepusher/com.bananaparty.unislop) - Minimalistic portable Unity MCP server designed for coding.  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput) - Comfortable abstraction with gesture support for unity's touches.  
-- [com.bananaparty.websocketclient](https://github.com/forcepusher/com.bananaparty.websocketrelay) - Websocket server and networking library. Basically a home-made Photon.  
+- [com.bananaparty.websocketrelay](https://github.com/forcepusher/com.bananaparty.websocketrelay) - Websocket server and networking library. Basically a home-made Photon.  
   
 ### ComfyUI nodes:  
 - [ComfyUI-Enhancement-Utils](https://github.com/forcepusher/ComfyUI-Enhancement-Utils) - PC resource monitor and execution follower.  
