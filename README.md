@@ -60,6 +60,7 @@ Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless m
 - [com.bananaparty.arch](https://github.com/forcepusher/com.bananaparty.arch) - Architecture alternative to Singletons and DI Containers.  
 - [com.bananaparty.unislop](https://github.com/forcepusher/com.bananaparty.unislop) - Minimalistic portable Unity MCP server designed for coding.  
 - [com.bananaparty.touchinput](https://github.com/forcepusher/com.bananaparty.touchinput) - Comfortable abstraction with gesture support for unity's touches.  
+- [com.bananaparty.input.tvremote](https://github.com/forcepusher/com.bananaparty.input.tvremote) - Fully cross-platform input library for TV remotes.  
   
 ### ComfyUI nodes:  
 - [ComfyUI-Enhancement-Utils](https://github.com/forcepusher/ComfyUI-Enhancement-Utils) - PC resource monitor and execution follower.  
