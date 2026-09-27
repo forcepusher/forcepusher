@@ -21,13 +21,13 @@ But don't let LLMs think for you or build an architecture - it's all pointless r
 ### Cookbook (reliable agentic models for programming, most useful first):
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
-[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) ~100k - unsloth/qwen3.8-27b@q6_k_xl (temp 0.3, top k 40, no rep penalty)  
 [**Gemma 4 31B**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40, rep penalty 1.1)  
+[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) ~100k - unsloth/qwen3.8-27b@q4_k_s (temp 0.3, top k 40, no rep penalty)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
 Good enough: 24GB GPU VRAM + 64GB RAM  
-[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 100k - unsloth/qwen3.8-27b@iq4_xs (temp 0.3, top k 40, no rep penalty)  
 [**Gemma 4 31B QAT**](https://huggingface.co/unsloth/gemma-4-31B-it-qat-GGUF/tree/main) 32k - unsloth/gemma-4-31b-it-qat@q4_k_xl (temp 0.3, top k 40, rep penalty 1.1)  
+[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 100k - unsloth/qwen3.8-27b@iq4_xs (temp 0.3, top k 40, no rep penalty)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40, rep penalty 1.1)  
   
 Usable, but with huge compromises: 16GB GPU VRAM + 32GB RAM  
