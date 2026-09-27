@@ -33,7 +33,7 @@ Good enough: 24GB GPU VRAM + 64GB RAM
 Usable, but with compromises: 16GB GPU VRAM + 32GB RAM  
 [**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 40k - unsloth/qwen3.8-27b@iq4_xs (temp 0.6, top k 20, no rep penalty, Q8_0 KV Cache)  
   
-Old videocard or laptop option, mostly suffering: 12GB GPU VRAM + 32GB RAM  
+Old videocard or laptop option, mostly suffering: 8-12GB GPU VRAM + 32GB RAM  
 [**Gemma 4 12B QAT**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) 80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40, rep penalty 1.1)  
 
 --
