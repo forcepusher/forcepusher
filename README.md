@@ -31,7 +31,7 @@ Good enough: 24GB GPU VRAM + 64GB RAM
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) 40k - xortron.criminalcomputing.2026.27b.next@q5_k_m (temp 0.3, top k 40, rep penalty 1.1)  
   
 Usable, but with big compromises: 16GB GPU VRAM + 32GB RAM  
-[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 32k - unsloth/qwen3.8-27b@iq4_xs (temp 0.6, top k 20, no rep penalty)  
+[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 32k - unsloth/qwen3.8-27b@iq3_xxs (temp 0.6, top k 20, no rep penalty)  
   
 Old videocard or laptop option, mostly suffering: 8-12GB GPU VRAM + 32GB RAM  
 [**Gemma 4 12B QAT**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) ~80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40, rep penalty 1.1)  
