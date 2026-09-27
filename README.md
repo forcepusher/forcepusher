@@ -42,7 +42,7 @@ Global settings: Min P Sampling 0.05, Top P Sampling 0.95.
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
 If you can get anything done on a small model, get a dual-16GB-GPU setup. I use dual RTX 4000 Ada for 40GB VRAM.  
-Every 8GB extra VRAM is an astronomic leap in quality. 16GB models are not even close to 24GB models.  
+Every 8GB extra VRAM is an astronomic leap in quality. 12GB model is not even close to other models.  
   
 Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to be best open-source agentic IDE.  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
