@@ -50,7 +50,7 @@ Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
 
 Model developers put default settings tailored for high scores in benchmarks. Those are really bad for actual work.  
-I use low temperatures and top K to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
+I use very low temperatures to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 Always disable Unified KV Cache and set Max Concurrent Prediction to 1, unless model is intended to work in parallel.  
 Do not use Q8_0 KV Cache quantization, it introduces typos and kinda wrecks most models.  
