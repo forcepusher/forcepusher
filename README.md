@@ -54,7 +54,6 @@ Model developers put default settings tailored for high scores in benchmarks. Th
 I use very low temperatures to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 Disable Unified KV Cache and set Max Concurrent Prediction to 1 to save memory. Set max output tokens to 8000.  
-Do not use Q8_0 KV Cache quantization, it introduces typos and kinda wrecks most models.  
   
 ---
   
