@@ -32,6 +32,7 @@ Mostly usable: 24GB GPU VRAM + 64GB RAM
   
 Barely usable: 16GB GPU VRAM + 32GB RAM  
 [**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) 32k - unsloth/qwen3.8-27b@iq3_xxs (temp 0.1, top k 40, no rep penalty)  
+[**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-i1-GGUF/tree/main) 32k - xortron.criminalcomputing.2026.27b.next@iq3_xs (2 layers on CPU, Q8 KVCache, temp 0.3, top k 40)  
   
 Old videocard or laptop option, pure suffering: 8-12GB GPU VRAM + 32GB RAM  
 [**Gemma 4 12B QAT**](https://huggingface.co/unsloth/gemma-4-12B-it-qat-GGUF/tree/main) ~80k - unsloth/gemma-4-12b-it-qat@q4_k_xl (temp 0.1, top k 40, rep penalty 1.1)  
