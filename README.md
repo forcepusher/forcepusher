@@ -1,4 +1,4 @@
-Projects done with substantial help of AI tools have "Slop" in their name. Other projects untouched by AI.  
+Projects done with substantial help of AI tools have "Slop" in their name. Other projects never touched by AI.  
   
 Of course "AI" is a great to get stuff done fast, but it's quite dumb and have to be very carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) facerolling on the keyboard.  
