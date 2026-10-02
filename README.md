@@ -42,6 +42,11 @@ Old videocard or laptop option, pure suffering: 8-12GB GPU VRAM + 32GB RAM
 Global settings: Min P Sampling 0.05, Top P Sampling 0.95.  
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
+Model developers put default settings tailored for high scores in benchmarks. Those are really bad for actual work.  
+I use very low temperatures to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
+To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
+Disable Unified KV Cache and set Max Concurrent Prediction to 1 to save memory.  
+  
 If you can get anything done on a small model, get a dual-16GB-GPU setup. I use dual RTX 4000 Ada for 40GB VRAM.  
 Every 8GB extra VRAM is an astronomic leap in quality. 12GB model is not even close to other models.  
   
@@ -49,11 +54,6 @@ Use OpenAI-compatible API to connect to LM Studio. The https://zed.dev/ seems to
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio and Zed. Very tedious to get right.  
 Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [PortableAgent](https://github.com/forcepusher/PortableAgent) ruleset.  
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
-
-Model developers put default settings tailored for high scores in benchmarks. Those are really bad for actual work.  
-I use very low temperatures to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
-To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
-Disable Unified KV Cache and set Max Concurrent Prediction to 1 to save memory.  
   
 ---
   
