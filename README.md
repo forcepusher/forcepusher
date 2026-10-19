@@ -68,7 +68,7 @@ Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind
 - [ComfyUI-SloppyAudio](https://github.com/forcepusher/ComfyUI-SloppyAudio) - Audio editing tools based on SoX and BS-RoFormer.  
   
 ### Other instruments:  
-- [BlackBox](https://github.com/forcepusher/BlackBox) - Portable agent harness for local LLMs, mostly like Claude or Codex with desktop control feature.  
+- [BlackBox](https://github.com/forcepusher/BlackBox) - Portable agent harness for local LLMs. Mostly like Claude or Codex with desktop control feature.  
 - [PortableAgent](https://github.com/forcepusher/PortableAgent) - Rule prompt for local LLMs like Gemma and Qwen. Read less slop and get much better results. 
 - [ComfyUI-SloppyInstall.bat](https://gist.github.com/forcepusher/4bc79cce87f3cbda21872ea6ee1936cf) - Simplified pip install -r "requirements.txt" for custom nodes in portable ComfyUI.  
 - [SloppyServer.bat](https://gist.github.com/forcepusher/4c4cf4a8d9e390e4f224f4f31c348672) - Single file local/Wi-Fi server for debugging multithreaded mobile Unity WebGL builds.  
