@@ -20,6 +20,7 @@ But don't let LLMs think for you or build an architecture - it's all random bloa
   
 ### Cookbook (reliable agentic models for programming, most useful first):
 TL;DR: Qwen 3.8 27B is the only "Good enough" small-ish model.  
+But on a regular cheap gaming card you're stuck with Gemma 4 12B.  
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
 [**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) ~100k - unsloth/qwen3.8-27b@q6_k_xl (temp 0.6, top k 20, no rep penalty)  
