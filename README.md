@@ -19,7 +19,7 @@ But don't let LLMs think for you or build an architecture - it's all random bloa
 ---
   
 ### Cookbook (reliable agentic models for programming, most useful first):
-TL;DR: Qwen 3.8 27B is the only "Good for production" small-ish model.  
+TL;DR: Qwen 3.8 27B is the only "Good for production" affordable model for a home-server.  
 But on a regular cheap gaming rig you're stuck with Gemma 4 12B.  
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
