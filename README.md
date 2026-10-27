@@ -1,5 +1,7 @@
 Projects which were done with substantial help of LLMs have "Slop" in their name (or stated in the description).  
   
+---
+  
 Of course "AI" is a great to get stuff done fast, but it's quite dumb and have to be very carefully guided.  
 Some people [compare it to a parrot](https://www.youtube.com/watch?v=p22QeLNHvlc) facerolling on the keyboard.  
   
@@ -15,8 +17,6 @@ Our videocards now can not only run games, but write somewhat useful code. That'
 And if part of your job or pipeline can actually be replaced by a parrot, maybe it should be replaced.  
 Think of writing and updating tests. If you're blank-staring at the wall right now, you get it.  
 But don't let LLMs think or make decisions for you - it's all random garbage.  
-  
----
   
 ### Cookbook (reliable agentic models for programming, most useful first):
 TL;DR: Qwen 3.8 27B is the only "Good enough" model for a home-server with affordable hardware.  
