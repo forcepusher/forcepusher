@@ -45,7 +45,7 @@ Global settings: Min P Sampling 0.05, Top P Sampling 0.95.
 This is [how these settings work](https://www.youtube.com/watch?v=_3DWwb96exY) (yeah I know, pretty much every IT video).  
   
 Model developers put default settings tailored for high scores in benchmarks. Those are really bad for actual work.  
-I use very low temperatures to avoid tool use typos/screwups, since I use LLMs mostly for routine like refactoring.  
+I use very low temperatures on heavily compressed models to avoid tool use typos and tool call screwups.  
 To avoid Gemma 4 thinking bugs, use "<|channel>" as your reasoning start string, not "<|channel>thought".  
 Disable Unified KV Cache and set Max Concurrent Prediction to 1 to save memory.  
   
