@@ -17,7 +17,6 @@ Our videocards now can not only run games, but write somewhat useful code. That'
 And if part of your job or pipeline can actually be replaced by a parrot, maybe it should be replaced.  
 Think of writing and updating tests. If you're blank-staring at the wall right now, you get it.  
 But don't let LLMs think or make decisions for you - it's all random garbage.  
-  
 ### Cookbook (reliable agentic models for programming, most useful first):
 TL;DR: Qwen 3.8 27B is the only "Good enough" model for a home-server with affordable hardware.  
 But on a regular gaming rig you're stuck with Gemma 4 12B.  
