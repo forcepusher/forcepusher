@@ -23,7 +23,7 @@ TL;DR: Qwen 3.8 27B is the only "Good enough" model for a home-server with affor
 But on a regular gaming rig you're stuck with Gemma 4 12B.  
   
 Sweet spot: 32-40GB GPU VRAM + 64GB RAM  
-[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) ~100k - unsloth/qwen3.8-27b@q6_k_xl (temp 0.6, top k 20, no rep penalty)  
+[**Qwen 3.8 27B**](https://huggingface.co/unsloth/Qwen3.8-27B-GGUF/tree/main) ~100k - unsloth/qwen3.8-27b@q6_k_xl (temp 1.0, top k 20, min p 0, no rep penalty)  
 [**Gemma 4 31B**](https://huggingface.co/unsloth/gemma-4-31B-it-GGUF/tree/main) ~100k - unsloth/gemma-4-31b-it@q5_k_xl (temp 0.3, top k 40, rep penalty 1.1)  
 [**Xortron**](https://huggingface.co/mradermacher/XORTRON.CriminalComputing.2026.27B.Instruct.NEXT-GGUF/tree/main) ~200k - xortron.criminalcomputing.2026.27b.next@q6_k (temp 0.3, top k 40, rep penalty 1.1)  
   
