@@ -54,7 +54,6 @@ Every 8GB extra VRAM is an astronomic leap in quality. 12GB model is not even cl
   
 Use OpenAI-compatible API to connect to LM Studio. You can use my [improvised Claude alternative](https://github.com/forcepusher/Sloperator).  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio. Very tedious to get right.  
-Put `Responses MUST be terse and short.` in a rule or system prompt, or use my [PortableAgent](https://github.com/forcepusher/PortableAgent) ruleset.  
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
   
 ---
