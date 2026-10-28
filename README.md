@@ -52,7 +52,7 @@ Disable Unified KV Cache and set Max Concurrent Prediction to 1 to save memory.
 If you can get anything done on a small model, get a dual-16GB-GPU setup. I use dual RTX 4000 Ada for 40GB VRAM.  
 Every 8GB extra VRAM is an astronomic leap in quality. 12GB model is not even close to other models.  
   
-Use OpenAI-compatible API to connect to LM Studio. You can use my [Sloperator (improvised Claude)](https://github.com/forcepusher/Sloperator) or other harness.  
+Use OpenAI-compatible API to connect to LM Studio. You can use my [Sloperator](https://github.com/forcepusher/Sloperator) (improvised Claude) or other harness.  
 Here are [jinja templates](https://github.com/forcepusher/jinja-templates-lmstudio-zed) for LM Studio. Very tedious to get right.  
 Vision consumes a lot. Use Q8_0 or BF16 .mmproj files so you don't have to blind the model completely.  
   
